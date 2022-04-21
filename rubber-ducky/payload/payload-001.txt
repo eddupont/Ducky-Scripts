@@ -1,8 +1,8 @@
 REM My 1st payload for USB Rubber Ducky
 REM Rogue download of pictures
-REM Author:		É. Dupont
+REM Author:	É. Dupont
 REM License:	GNU General Public License v3.0
-REM v0.5-alpha	(April 2022)
+REM v0.5-alpha  (April 2022)
 
 REM Delay 100ms between each command
 DEFAULT_DELAY 10
