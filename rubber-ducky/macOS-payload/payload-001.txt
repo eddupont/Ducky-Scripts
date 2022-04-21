@@ -1,5 +1,6 @@
 REM My 1st payload for USB Rubber Ducky
 REM Rogue download of pictures
+REM Target: Macintosh (w/French GUI)
 REM Author:	É. Dupont
 REM License:	GNU General Public License v3.0
 REM v0.5-alpha  (April 2022)
