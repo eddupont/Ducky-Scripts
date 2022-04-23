@@ -1,2 +1,2 @@
-# supreme-couscous
+# Ducky-Scripts
 Sandbox for DuckyScript™ payloads
