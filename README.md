@@ -1,2 +1,2 @@
 # supreme-couscous
-Sandbox for security testing
+Sandbox for DuckyScript™ payloads
