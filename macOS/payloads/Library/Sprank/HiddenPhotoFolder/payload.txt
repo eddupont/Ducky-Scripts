@@ -1,13 +1,12 @@
 REM Title:		Hidden photo folder
 REM Author:		Édouard Dupont
-REM Description:
-			Create a hidden directory and download in it a collection of "NFTW" pictures.
-REM Category:	Sprank
+REM Description:	Create a hidden directory and download in it a collection of "NFTW" pictures.
+REM Category:		Sprank
 REM Target:		macOS 11.0+
-REM Version:	0.6-beta
-REM License:	GNU General Public License v3.0
-REM Requires:	A web server to download resources
-REM Source:		https://github.com/th3m1s-42/DuckyScript/
+REM Version:		0.6-beta
+REM License:		GNU General Public License v3.0
+REM Requires:		A web server to download resources
+REM Source:		https://github.com/th3m1s-42/Ducky-Scripts/
 
 
 REM Delay 100ms between each command
