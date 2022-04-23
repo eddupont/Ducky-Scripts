@@ -39,5 +39,6 @@ STRING curl --dns-ipv4-addr 9.9.9.9 --dns-ipv6-addr 2620:fe::fe --compressed --r
 ENTER
 DELAY 50
 
+REM Quit
 STRING killall Terminal
 ENTER
