@@ -20,11 +20,10 @@ REM   - for USB Rubber Ducky payload, use custom keyboard to generate the inject
 REM Delay 100ms between each command:
 DEFAULT_DELAY 10
 
-REM -------------------------------------
-REM Bash Bunny payload, uncomment below:
+REM ----------------------------------------------------------
+REM Bash Bunny payload, the command line below is uncommented:
 REM DUCKY_LANG fr
-REM -------------------------------------
-
+REM ----------------------------------------------------------
 
 REM Open a "Terminal" window:
 GUI SPACE
