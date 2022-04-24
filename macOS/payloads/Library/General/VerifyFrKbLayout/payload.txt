@@ -1,0 +1,78 @@
+REM Title:       Verify Kb layout
+REM Author:      Édouard Dupont
+REM Description: Verify the Apple™ French keyboard layout, typing all the printable
+REM              characters in a text editor (by default: "TextEdit.app")
+REM Category:    General
+REM Target:      macOS 11.0+
+REM Version:     1.0
+REM License:     GNU General Public License v3.0
+REM Requires:    -
+REM Source:      https://github.com/th3m1s-42/Ducky-Scripts/
+
+
+REM Delay 100ms between each command:
+DEFAULT_DELAY 10
+
+REM ----------------------------------------------------------
+REM Bash Bunny payload, the command line below is uncommented:
+DUCKY_LANG fr
+REM ----------------------------------------------------------
+
+REM Open a new "TextEdit" window:
+GUI SPACE
+DELAY 50
+STRING TextEdit.app
+ENTER
+DELAY 50
+GUI n
+DELAY 50
+
+REM Try all the keyboard keys (without modifier):
+PRINT @ & é " ' ( § è ! ç à ) -
+ENTER
+PRINT a z e r t y u i o p ^  $
+ENTER
+PRINT q s d f g h j k l m ù ` 
+ENTER
+PRINT < w x c v b n , ; : =
+ENTER
+ENTER 
+
+REM Try all the keyboard keys with SHIFT modifier:
+PRINT SHIFT+KEYS:
+ENTER
+PRINT # 1 2 3 4 5 6 7 8 9 0 ° _
+ENTER
+PRINT A Z E R T Y U I O P ¨  *
+ENTER
+PRINT Q S D F G H J K L M % £
+ENTER
+PRINT > W X C V B N ? . / +
+ENTER
+ENTER 
+
+REM Try all the keyboard keys with OPTION (ALT) modifier:
+PRINT OPTION+KEYS:
+ENTER
+PRINT •  ë “ ‘ { ¶ « ¡ Ç ø } —
+ENTER
+PRINT æ Â ê ® † Ú º î œ π ô €
+ENTER
+PRINT ‡ Ò ∂ ƒ ﬁ Ì Ï È ¬ µ Ù @
+ENTER
+PRINT ≤ ‹ ≈ © ◊ ß ~ ∞ … ÷ ≠
+ENTER
+ENTER 
+
+REM Try all the keyboard keys with both OPTION (ALT) and SHIFT modifiers:
+PRINT OPTION+SHIFT+KEYS:
+ENTER
+PRINT Ÿ ´ „ ” ’ [ å » Û Ø ] –
+ENTER
+PRINT Æ Å Ê ‚ ™ Ÿ ª ï Œ ∏ Ô ¥
+ENTER
+PRINT Ω ∑ ∆ · ﬂ Î Í Ë | Ó ‰ #
+ENTER
+PRINT ≥ › ⁄ ¢ √ ∫ ı ¿ • \ ±
+ENTER
+ENTER 
