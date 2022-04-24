@@ -1,13 +1,13 @@
-REM Title:		Verify Kb layout
-REM Author:		Édouard Dupont
-REM Description:	Verify the Apple™ French keyboard layout, typing all the printable
-REM 			characters in a text editor (by default: "TextEdit.app")
-REM Category:	General
-REM Target:		MacOS 11.0+
-REM Version:	1.0
-REM License:	GNU General Public License v3.0
-REM Requires:	-
-REM Source:		https://github.com/th3m1s-42/Ducky-Scripts/
+REM Title:       Verify Kb layout
+REM Author:      Édouard Dupont
+REM Description: Verify the Apple™ French keyboard layout, typing all the printable
+REM              characters in a text editor (by default: "TextEdit.app")
+REM Category:    General
+REM Target:      macOS 11.0+
+REM Version:     1.0
+REM License:     GNU General Public License v3.0
+REM Requires:    -
+REM Source:      https://github.com/th3m1s-42/Ducky-Scripts/
 
 
 REM Delay 100ms between each command:
