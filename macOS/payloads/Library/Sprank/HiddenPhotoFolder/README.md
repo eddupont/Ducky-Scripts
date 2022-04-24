@@ -6,8 +6,8 @@ Target uses French GUI & keyboard.
 
 ### Details:
 | Author   | Édouard Dupont |
-| :--: | -- |
+|   :--:   | -- |
 | Category | Sprank |
-| Target   | macOS 12.0+ |
+| Target   | macOS 11.0 Big Sur, and above… |
 | Version  | 0.6-beta |
 | Requires | A web (or Object Storage) server to download resources |
