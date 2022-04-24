@@ -12,4 +12,4 @@ Verify layout for the Apple™ French keyboard layout, typing all the printable 
 | Requires |  |
 
 ### Expected output:
-![TextEdit screenshot](https://github.com/th3m1s-42/Ducky-Scripts/blob/main/pict/screenshot001.png)
+![TextEdit screenshot](https://github.com/th3m1s-42/Ducky-Scripts/blob/main/pictures/screenshot001.png)
