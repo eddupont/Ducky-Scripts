@@ -11,14 +11,20 @@ REM Requires:		A web (or Object Storage) server to download resources
 REM Source:		https://github.com/th3m1s-42/Ducky-Scripts/
 
 
+REM WARNING! Target uses French GUI & keyboard:
+REM 	- for Bash Bunny payload, uncomment "DUCKY_LANG fr" (line 25),
+REM 	  with "/languages/fr.json" file installed on the device;
+REM 	- for USB Rubber Ducky payload, …
+
+
 REM Delay 100ms between each command:
 DEFAULT_DELAY 10
 
-REM ------------------------------------------------------------------------------
-REM Target uses French GUI & keyboard, for Bash Bunny payload, add the line below
-REM (with "/languages/fr.json" file installed on the device):
+REM -------------------------------------
+REM Bash Bunny payload, uncomment below:
 REM DUCKY_LANG fr
-REM ------------------------------------------------------------------------------
+REM -------------------------------------
+
 
 REM Open a "Terminal" window:
 GUI SPACE
