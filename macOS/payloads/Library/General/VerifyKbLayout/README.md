@@ -1,4 +1,4 @@
-# Verify Kb layout
+# Verify Fr Kb layout
 
 ### Description:
 Verify layout for the Apple™ French keyboard layout, typing all the printable characters in a text editor (by default: "TextEdit.app").
