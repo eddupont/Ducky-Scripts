@@ -14,9 +14,11 @@ REM Source:		https://github.com/th3m1s-42/Ducky-Scripts/
 REM Delay 100ms between each command:
 DEFAULT_DELAY 10
 
-REM Target uses French GUI & keyboard:
-REM The file "/languages/fr.json" must be installed on device.
-DUCKY_LANG fr
+REM ------------------------------------------------------------------------------
+REM Target uses French GUI & keyboard, for Bash Bunny payload, add the line below
+REM (with "/languages/fr.json" file installed on the device):
+REM DUCKY_LANG fr
+REM ------------------------------------------------------------------------------
 
 REM Open a "Terminal" window:
 GUI SPACE
