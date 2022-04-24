@@ -2,7 +2,7 @@
 
 ### Description:
 Create a hidden directory and download in it a collection of "NFTW" pictures.  
-Target uses French GUI & keyboard
+Target uses French GUI & keyboard.
 
 ### Details:
 | Author   | Édouard Dupont |
