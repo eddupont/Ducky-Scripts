@@ -7,7 +7,7 @@ Verify layout for the Apple™ French keyboard layout, typing all the printable 
 | Author   | Édouard Dupont |
 |   :--:   | -- |
 | Category | General |
-| Target   | macOS 11.0 "Big Sur", and beyond. |
+| Target   | macOS 11.0 "Big Sur" and beyond |
 | Version  | 1.0 |
 | Requires |  |
 
