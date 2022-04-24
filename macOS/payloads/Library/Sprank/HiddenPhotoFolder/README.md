@@ -9,5 +9,5 @@ Target uses French GUI & keyboard.
 |   :--:   | -- |
 | Category | Sprank |
 | Target   | macOS 11.0 "Big Sur", and above… |
-| Version  | 0.6-beta |
+| Version  | 0.7-beta |
 | Requires | A web (or Object Storage) server to download resources |
