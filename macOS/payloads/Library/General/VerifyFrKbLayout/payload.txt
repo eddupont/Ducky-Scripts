@@ -3,6 +3,7 @@ REM Author:      Édouard Dupont
 REM Description: Verify the Apple™ French keyboard layout, typing all the printable
 REM              characters in a text editor (by default: "TextEdit.app")
 REM Category:    General
+REM Device:      USB Ducky Duck, Bash Bunny
 REM Target:      macOS X+
 REM Version:     1.0
 REM License:     GNU General Public License v3.0
