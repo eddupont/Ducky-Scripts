@@ -4,6 +4,7 @@ REM Description: Create a hidden directory and download in it a collection of "N
 REM              In my simulation, the "malicious" pictures are a set of 293 astronomy photos.
 REM              (Replace "https://example.com/path/IMG_[0001-0293].jpeg" by your own resources URL)
 REM Category:    Sprank
+REM Device:      USB Ducky Duck, Bash Bunny
 REM Target:      macOS 11.0+
 REM Version:     0.7-beta
 REM License:     GNU General Public License v3.0
