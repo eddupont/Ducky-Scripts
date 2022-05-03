@@ -7,6 +7,7 @@ Verify layout for the Apple™ French keyboard layout, typing all the printable 
 | Author   | Édouard Dupont |
 |   :--:   | -- |
 | Category | General |
+| Device   | USB Ducky Duck, Bash Bunny |
 | Target   | macOS X and beyond |
 | Version  | 1.0 |
 | Requires |  |
