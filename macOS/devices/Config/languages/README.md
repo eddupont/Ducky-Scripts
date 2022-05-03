@@ -10,7 +10,7 @@ for localized configuration of the PC keyboard.
 ### Customised files:
 
 - `alt-fr` draft file.
-- `apple-fr.json` modified for Apple™ French keyboard (see expected mapping
+- `apple-fr.json` modified for Apple™ French keyboard (see expected output
   [here](https://github.com/th3m1s-42/Ducky-Scripts/blob/main/pictures/screenshot001.png)).   
   
 **Warning: These files are under test!**
