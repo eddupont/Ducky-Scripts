@@ -8,6 +8,7 @@ Target uses French GUI & keyboard.
 | Author   | Édouard Dupont |
 |   :--:   | -- |
 | Category | Sprank |
+| Device   | USB Ducky Duck, Bash Bunny |
 | Target   | macOS 11.0 "Big Sur" and beyond |
 | Version  | 0.7-beta |
 | Requires | A web (or Object Storage) server to download resources |
