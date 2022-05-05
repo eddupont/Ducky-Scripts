@@ -3,6 +3,7 @@ _Payload header:_
 REM Title:       Payload name
 REM Author:      Édouard Dupont
 REM Description: Put here what it does.
+REM              Use more than one line if necessary…
 REM Category:    General, Sprank
 REM Device:      USB Rubber Ducky, Bash Bunny, Key Croc
 REM Target:      *
