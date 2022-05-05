@@ -14,9 +14,9 @@ REM Source:      https://github.com/th3m1s-42/Ducky-Scripts/
 
 REM WARNING! Target uses French GUI & keyboard:
 REM          - for Bash Bunny payload, you have to uncomment "DUCKY_LANG fr" (line 25),
-REM            with "/languages/fr.json" file installed on the device;
-REM          - for USB Rubber Ducky payload, you can use "jsencoder.html" with the 
-REM            French keyboard layout ("fr.json") to generate the injection file.
+REM            with custom "/languages/fr.json" file for Apple™ keyboard installed on the device;
+REM          - for USB Rubber Ducky payload, you can use "jsencoder.html" with the custom
+REM            French layout ("fr.json") for Apple™ keyboard to generate the injection file.
 
 
 REM Delay 100ms between each command:
@@ -28,7 +28,7 @@ REM DUCKY_LANG fr
 REM ----------------------------------------------------------
 
 REM Wait to make sure the USB stick is mounted.
-DELAY 3000
+DELAY 1000
 
 REM Open a "Terminal" window:
 GUI SPACE
