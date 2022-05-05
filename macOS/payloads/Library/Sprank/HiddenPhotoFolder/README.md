@@ -4,6 +4,7 @@
 Create a hidden directory and download in it a collection of "NFTW" pictures.  
 Target uses French GUI & keyboard.
 
+The name of the hidden folder is "".
 Use a custom `fr.json` language file for Apple™ French keyboard, or modify the default file as bellow.  
 Output of the `diff` command (file comparison):
 ```
