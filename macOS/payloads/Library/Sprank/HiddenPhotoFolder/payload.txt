@@ -6,7 +6,7 @@ REM              (Replace "https://example.com/path/IMG_[0001-0293].jpeg" by you
 REM Category:    Sprank
 REM Device:      USB Ducky Duck, Bash Bunny
 REM Target:      macOS 11.0+
-REM Version:     0.7-beta
+REM Version:     0.8-beta
 REM License:     GNU General Public License v3.0
 REM Requires:    A web (or Object Storage) server to download resources
 REM Source:      https://github.com/th3m1s-42/Ducky-Scripts/
@@ -35,6 +35,17 @@ GUI SPACE
 DELAY 50
 STRING Terminal.app
 ENTER
+DELAY 50
+
+REM Obfuscation
+GUI i
+TAB
+TAB
+STRING 20
+TAB
+STRING 1
+ENTER
+GUI w
 DELAY 50
 
 REM Open a shell without history:
