@@ -27,6 +27,7 @@ REM Bash Bunny payload, the command line below is uncommented:
 REM DUCKY_LANG fr
 REM ----------------------------------------------------------
 
+REM Wait to make sure the USB stick is mounted.
 DELAY 3000
 
 REM Open a "Terminal" window:
