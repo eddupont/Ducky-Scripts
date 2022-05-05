@@ -27,6 +27,8 @@ REM Bash Bunny payload, the command line below is uncommented:
 REM DUCKY_LANG fr
 REM ----------------------------------------------------------
 
+DELAY 3000
+
 REM Open a "Terminal" window:
 GUI SPACE
 DELAY 50
