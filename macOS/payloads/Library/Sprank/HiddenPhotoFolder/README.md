@@ -1,7 +1,7 @@
 # Hidden photo folder
 
 ### Description:
-Create a hidden directory and download in it a collection of "NFTW" pictures.  
+Create a hidden directory and download in it a collection of "NSFW" pictures.  
 Target uses French GUI & keyboard.
 
 The name of the hidden folder is "mes photos privées".  
